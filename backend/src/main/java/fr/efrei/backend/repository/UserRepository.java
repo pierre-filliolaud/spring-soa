@@ -12,7 +12,7 @@ import fr.efrei.backend.domain.User;
 @Repository
 public class UserRepository {
 	
-//	@PersistenceContext(unitName = "manager1")
+	@PersistenceContext(unitName = "manager1")
 	private EntityManager entityManager;
 	
 	public User save(User user) {
