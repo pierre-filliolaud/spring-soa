@@ -1,4 +1,4 @@
-package fr.efrei;
+package fr.efrei.backend;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;

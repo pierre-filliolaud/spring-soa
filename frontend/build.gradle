@@ -36,6 +36,9 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-data-mongodb')
 	compile('org.springframework.boot:spring-boot-starter-hateoas')
 	compile('org.springframework.boot:spring-boot-starter-web')
+	compile('org.eclipse.persistence:javax.persistence:2.0.0')
+	compile('hsqldb:hsqldb:1.8.0.10')
+	compile('org.eclipse.persistence:eclipselink:2.5.1')
 	providedRuntime('org.springframework.boot:spring-boot-starter-tomcat')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
