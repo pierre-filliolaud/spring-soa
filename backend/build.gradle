@@ -32,6 +32,7 @@ configurations {
 }
 
 dependencies {
+	compile('org.springframework.boot:spring-boot-starter-data-jpa')
 	compile('org.springframework.boot:spring-boot-starter-hateoas')
 	compile('org.springframework.boot:spring-boot-starter-web')
 	compile('org.eclipse.persistence:javax.persistence:2.0.0')
