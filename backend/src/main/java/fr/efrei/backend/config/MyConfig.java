@@ -7,7 +7,7 @@ import org.springframework.orm.jpa.LocalEntityManagerFactoryBean;
 @Configuration
 public class MyConfig {
 	
-	@Bean(name = "manager1")
+	@Bean(name = "database-connection")
 	public LocalEntityManagerFactoryBean entityManagerFactory(){
 	     LocalEntityManagerFactoryBean factoryBean = new LocalEntityManagerFactoryBean();
 	    factoryBean.setPersistenceUnitName("manager1");
